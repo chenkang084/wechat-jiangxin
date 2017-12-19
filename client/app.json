@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/nav/index",
+    "pages/addCgi/addCgi",
+    "pages/map/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "酱辛世家",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#D7261B",
+    "borderStyle": "white",
+    "backgroundColor": "#F6F6F6",
+    "box-shadow": "0 0 6px 0",
+    "list": [
+      {
+        "pagePath": "pages/nav/index",
+        "text": "首页",
+        "selectedIconPath":"assets/imgs/icons/home-icon-selected.png",
+        "iconPath":"assets/imgs/icons/home-icon.png"
+      },
+      {
+        "pagePath": "pages/map/index",
+        "text": "我的",
+        "selectedIconPath":"assets/imgs/icons/profile-icon-selected.png",
+        "iconPath":"assets/imgs/icons/profile-icon.png"
+      }    
+    ]
+  }
+}
